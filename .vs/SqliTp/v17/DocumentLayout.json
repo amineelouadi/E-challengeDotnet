@@ -1,0 +1,244 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\migrations\\20250402115241_migrationdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\migrations\\20250402115241_migrationdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\migrations\\20250402114810_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\migrations\\20250402114810_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Migrations\\20250402114610_FixCascadeDelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SqliTp\\Migrations\\20250402114610_FixCascadeDelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250402114810_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Migrations\\20250402114810_InitialMigration.cs",
+              "RelativeDocumentMoniker": "SqliTp\\Migrations\\20250402114810_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Migrations\\20250402114810_InitialMigration.cs",
+              "RelativeToolTip": "SqliTp\\Migrations\\20250402114810_InitialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:48:10.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250402114610_FixCascadeDelete.cs",
+              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Migrations\\20250402114610_FixCascadeDelete.cs",
+              "RelativeDocumentMoniker": "SqliTp\\Migrations\\20250402114610_FixCascadeDelete.cs",
+              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Migrations\\20250402114610_FixCascadeDelete.cs",
+              "RelativeToolTip": "SqliTp\\Migrations\\20250402114610_FixCascadeDelete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:46:11.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\MyContext.cs",
+              "RelativeDocumentMoniker": "SqliTp\\MyContext.cs",
+              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\MyContext.cs",
+              "RelativeToolTip": "SqliTp\\MyContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:44:21.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "SqliTp\\Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Enrollment.cs",
+              "RelativeToolTip": "SqliTp\\Models\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:42:57.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "SqliTp\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Student.cs",
+              "RelativeToolTip": "SqliTp\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:40:07.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "SqliTp\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Person.cs",
+              "RelativeToolTip": "SqliTp\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:39:21.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Program.cs",
+              "RelativeDocumentMoniker": "SqliTp\\Program.cs",
+              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Program.cs",
+              "RelativeToolTip": "SqliTp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:28:29.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\appsettings.json",
+              "RelativeDocumentMoniker": "SqliTp\\appsettings.json",
+              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\appsettings.json",
+              "RelativeToolTip": "SqliTp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T10:31:51.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "SqliTp\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Teacher.cs",
+              "RelativeToolTip": "SqliTp\\Models\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:41:17.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Class.cs",
+              "RelativeDocumentMoniker": "SqliTp\\Models\\Class.cs",
+              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Class.cs",
+              "RelativeToolTip": "SqliTp\\Models\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:42:08.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "SqliTp\\Models\\Subject.cs",
+              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Subject.cs",
+              "RelativeToolTip": "SqliTp\\Models\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:42:38.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250402115241_MigrationDb.cs",
+              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Migrations\\20250402115241_MigrationDb.cs",
+              "RelativeDocumentMoniker": "SqliTp\\Migrations\\20250402115241_MigrationDb.cs",
+              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Migrations\\20250402115241_MigrationDb.cs",
+              "RelativeToolTip": "SqliTp\\Migrations\\20250402115241_MigrationDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:52:42.065Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
