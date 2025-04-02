@@ -12,8 +12,8 @@ using SqliTp;
 namespace SqliTp.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20250402114810_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20250402182025_first")]
+    partial class first
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,8 @@ namespace SqliTp.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.HasSequence("PersonSequence");
 
             modelBuilder.Entity("SqliTp.Models.Class", b =>
                 {
@@ -81,21 +83,26 @@ namespace SqliTp.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasDefaultValueSql("NEXT VALUE FOR [PersonSequence]");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseSequence(b.Property<int>("Id"));
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(100)")
+                        .HasColumnName("FirstName");
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Persons");
+
+                    b.UseTpcMappingStrategy();
                 });
 
             modelBuilder.Entity("SqliTp.Models.Student", b =>
@@ -111,7 +118,8 @@ namespace SqliTp.Migrations
 
                     b.Property<string>("StudentNumber")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.HasKey("Id");
 

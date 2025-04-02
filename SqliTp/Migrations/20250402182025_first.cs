@@ -6,19 +6,21 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SqliTp.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class first : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateSequence(
+                name: "PersonSequence");
+
             migrationBuilder.CreateTable(
                 name: "Persons",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false, defaultValueSql: "NEXT VALUE FOR [PersonSequence]"),
+                    FirstName = table.Column<string>(type: "nvarchar(100)", nullable: false),
+                    LastName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -45,7 +47,7 @@ namespace SqliTp.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    StudentNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    StudentNumber = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
                     PersonId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -187,6 +189,9 @@ namespace SqliTp.Migrations
 
             migrationBuilder.DropTable(
                 name: "Subjects");
+
+            migrationBuilder.DropSequence(
+                name: "PersonSequence");
         }
     }
 }

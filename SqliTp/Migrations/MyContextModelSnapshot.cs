@@ -22,6 +22,8 @@ namespace SqliTp.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.HasSequence("PersonSequence");
+
             modelBuilder.Entity("SqliTp.Models.Class", b =>
                 {
                     b.Property<int>("Id")
@@ -78,21 +80,26 @@ namespace SqliTp.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasDefaultValueSql("NEXT VALUE FOR [PersonSequence]");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseSequence(b.Property<int>("Id"));
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(100)")
+                        .HasColumnName("FirstName");
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Persons");
+
+                    b.UseTpcMappingStrategy();
                 });
 
             modelBuilder.Entity("SqliTp.Models.Student", b =>
@@ -108,7 +115,8 @@ namespace SqliTp.Migrations
 
                     b.Property<string>("StudentNumber")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.HasKey("Id");
 

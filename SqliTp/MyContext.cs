@@ -35,6 +35,8 @@ namespace SqliTp
         {
             // Configuration Fluent API
 
+            modelBuilder.Entity<Person>().UseTpcMappingStrategy();
+
             // Person -> Student (one-to-one)
             modelBuilder.Entity<Student>()
                 .HasOne(s => s.Personal)

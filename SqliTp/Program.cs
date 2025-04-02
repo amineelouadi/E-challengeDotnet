@@ -18,7 +18,6 @@ class Program
 
         // Enregistrement des repositories
         services.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
-        services.AddScoped(typeof(IRepository<Student>), typeof(StudentRepository));
 
         // Construction du provider
         var serviceProvider = services.BuildServiceProvider();
