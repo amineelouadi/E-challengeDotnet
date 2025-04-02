@@ -15,8 +15,6 @@ namespace SqliTp.Data.Interfaces
         T FirstOrDefault(Expression<Func<T, bool>> predicate);
         bool Any(Expression<Func<T, bool>> predicate);
         int Count(Expression<Func<T, bool>> predicate = null);
-        IEnumerable<T> GetPaged(int pageNumber, int pageSize,
-                              Expression<Func<T, bool>> filter = null,
-                              Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null);
+        IEnumerable<T> GetPaged(int pageNumber, int pageSize,Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null);
     }
 }

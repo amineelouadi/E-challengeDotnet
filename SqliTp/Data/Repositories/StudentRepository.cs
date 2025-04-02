@@ -14,13 +14,11 @@ namespace SqliTp.Data.Repositories
     {
         protected readonly MyContext _context;
         protected readonly DbSet<Student> _dbSet;
-
         public StudentRepository(MyContext context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
             _dbSet = context.Set<Student>();
         }
-
         public void Add(Student entity)
         {
             _dbSet.Add(entity);
@@ -60,7 +58,6 @@ namespace SqliTp.Data.Repositories
         {
             return _dbSet.Include(s => s.Personal).FirstOrDefault(s => s.Id == id);
         }
-
         public IEnumerable<Student> GetPaged(int pageNumber, int pageSize, Expression<Func<Student, bool>> filter = null, Func<IQueryable<Student>, IOrderedQueryable<Student>> orderBy = null)
         {
             IQueryable<Student> query = _dbSet.Include(s => s.Personal);
@@ -75,14 +72,12 @@ namespace SqliTp.Data.Repositories
                         .Take(pageSize)
                         .ToList();
         }
-
         public IEnumerable<Student> GetTopStudents(int count)
         {
             return _dbSet.OrderByDescending(s => s.Id) 
                        .Take(count)
                        .ToList();
         }
-
         public void Remove(Student entity)
         {
             _dbSet.Remove(entity);
@@ -92,18 +87,15 @@ namespace SqliTp.Data.Repositories
         {
             _dbSet.RemoveRange(entities);
         }
-
         public void RemoveWhere(Expression<Func<Student, bool>> predicate)
         {
             var entities = _dbSet.Where(predicate);
             _dbSet.RemoveRange(entities);
         }
-
         public int SaveChanges()
         {
             return _context.SaveChanges();
         }
-
         public void Update(Student entity)
         {
             _dbSet.Attach(entity);

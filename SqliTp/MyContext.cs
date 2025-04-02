@@ -31,7 +31,6 @@ namespace SqliTp
                 optionsBuilder.UseSqlServer(connectionString);
             }
         }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Configuration Fluent API
@@ -50,7 +49,6 @@ namespace SqliTp
                 .HasForeignKey<Teacher>(t => t.PersonId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // Enrollment relationships
             modelBuilder.Entity<Enrollment>()
                 .HasOne(e => e.Student)
                 .WithMany()
@@ -63,7 +61,6 @@ namespace SqliTp
                 .HasForeignKey(e => e.ClassId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // Keep other configurations as they were
             modelBuilder.Entity<Class>()
                 .HasOne(c => c.Teacher)
                 .WithMany(t => t.Classes)

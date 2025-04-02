@@ -9,25 +9,25 @@ namespace SqliTp.Data.Interfaces
 {
     public interface IRepository<T> : IReadOnlyRepository<T> where T : class
     {
-        // Ajoute une nouvelle entité
+        // Ajouter une nouvelle entité
         void Add(T entity);
 
-        // Ajoute une collection d'entités
+        // Ajouter une collection d'entités
         void AddRange(IEnumerable<T> entities);
 
         // Met à jour une entité
         void Update(T entity);
 
-        // Supprime une entité
+        // Supprimer une entité
         void Remove(T entity);
 
-        // Supprime une collection d'entités
+        // Supprimer une collection d'entités
         void RemoveRange(IEnumerable<T> entities);
 
-        // Supprime selon un filtre
+        // Supprimer selon un filtre
         void RemoveWhere(Expression<Func<T, bool>> predicate);
 
-        // Enregistre les changements
+        // Enregistrer les changements
         int SaveChanges();
     }
 }

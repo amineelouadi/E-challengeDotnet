@@ -19,7 +19,6 @@ namespace SqliTp.Data.Repositories
             _context = context ?? throw new ArgumentNullException(nameof(context));
             _dbSet = context.Set<T>();
         }
-
         public virtual T GetById(int id) => _dbSet.Find(id);
 
         public virtual IEnumerable<T> GetAll() => _dbSet.ToList();
@@ -36,9 +35,7 @@ namespace SqliTp.Data.Repositories
         public virtual int Count(Expression<Func<T, bool>> predicate = null)
             => predicate != null ? _dbSet.Count(predicate) : _dbSet.Count();
 
-        public virtual IEnumerable<T> GetPaged(int pageNumber, int pageSize,
-                                            Expression<Func<T, bool>> filter = null,
-                                            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null)
+        public virtual IEnumerable<T> GetPaged(int pageNumber, int pageSize, Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null)
         {
             IQueryable<T> query = _dbSet;
 
@@ -52,7 +49,6 @@ namespace SqliTp.Data.Repositories
                        .Take(pageSize)
                        .ToList();
         }
-
         public virtual void Add(T entity) => _dbSet.Add(entity);
 
         public virtual void AddRange(IEnumerable<T> entities) => _dbSet.AddRange(entities);
@@ -62,7 +58,6 @@ namespace SqliTp.Data.Repositories
             _dbSet.Attach(entity);
             _context.Entry(entity).State = EntityState.Modified;
         }
-
         public virtual void Remove(T entity) => _dbSet.Remove(entity);
 
         public virtual void RemoveRange(IEnumerable<T> entities) => _dbSet.RemoveRange(entities);
