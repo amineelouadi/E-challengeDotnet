@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SqliTp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a0283d093bee078d21fdd0da9579e11a9fdbfb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba37a37209017485e791046a6405f0834d95b721")]
 [assembly: System.Reflection.AssemblyProductAttribute("SqliTp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SqliTp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

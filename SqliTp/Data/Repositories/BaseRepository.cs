@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace SqliTp.Data.Repositories
 {
-    public abstract class BaseRepository<T> : IRepository<T> where T : class
+    public class BaseRepository<T> : IRepository<T> where T : class
     {
-        protected readonly DbContext _context;
+        protected readonly MyContext _context;
         protected readonly DbSet<T> _dbSet;
 
-        protected BaseRepository(DbContext context)
+        public BaseRepository(MyContext context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
             _dbSet = context.Set<T>();

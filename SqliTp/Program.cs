@@ -14,27 +14,27 @@ class Program
         var services = new ServiceCollection();
 
         // Configuration de DbContext
-        services.AddDbContext<MyContext>(options =>
-            options.UseSqlServer("VotreChaîneDeConnexion"));
+        services.AddDbContext<MyContext>();
 
         // Enregistrement des repositories
-        services.AddScoped(typeof(IReadOnlyRepository<>), typeof(BaseRepository<>));
         services.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
+        services.AddScoped(typeof(IRepository<Student>), typeof(StudentRepository));
 
         // Construction du provider
         var serviceProvider = services.BuildServiceProvider();
 
+
         using (var scope = serviceProvider.CreateScope())
         {
             // Récupération des services
-            var studentRepo = scope.ServiceProvider.GetRequiredService<IRepository<Student>>();
             var teacherRepo = scope.ServiceProvider.GetRequiredService<IRepository<Teacher>>();
+            var studentRepo = scope.ServiceProvider.GetRequiredService<IRepository<Student>>();
 
             Console.WriteLine("Ajout d'un nouvel étudiant...");
             var newStudent = new Student
             {
                 StudentNumber = "ET2024001",
-                Personal = new Person { FirstName = "Karim", LastName = "Benzema" }
+                Personal = new Person { FirstName = "Mohamed Amine", LastName = "El Ouadi" }
             };
 
             studentRepo.Add(newStudent);

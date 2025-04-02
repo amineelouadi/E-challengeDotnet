@@ -151,3 +151,5 @@ C:\Users\melouadi\source\repos\SqliTp\SqliTp\obj\Debug\net9.0\SqliTp.pdb
 C:\Users\melouadi\source\repos\SqliTp\SqliTp\obj\Debug\net9.0\SqliTp.genruntimeconfig.cache
 C:\Users\melouadi\source\repos\SqliTp\SqliTp\obj\Debug\net9.0\ref\SqliTp.dll
 C:\Users\melouadi\source\repos\SqliTp\SqliTp\bin\Debug\net9.0\appsettings.json
+C:\Users\melouadi\source\repos\SqliTp\SqliTp\bin\Debug\net9.0\FluentAssertions.dll
+C:\Users\melouadi\source\repos\SqliTp\SqliTp\obj\Debug\net9.0\SqliTp.sourcelink.json

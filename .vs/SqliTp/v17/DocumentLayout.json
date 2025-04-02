@@ -7,32 +7,12 @@
       "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\data\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\data\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\data\\interfaces\\ireadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\data\\interfaces\\ireadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\data\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\data\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,6 +21,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\data\\interfaces\\ireadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\data\\interfaces\\ireadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\data\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\data\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|c:\\users\\melouadi\\source\\repos\\sqlitp\\sqlitp\\migrations\\20250402114810_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A275453F-5B9C-47FD-85D6-C6D9B5F7F72C}|SqliTp\\SqliTp.csproj|solutionrelative:sqlitp\\migrations\\20250402114810_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Migrations\\20250402114610_FixCascadeDelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SqliTp\\Migrations\\20250402114610_FixCascadeDelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,67 +94,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Data\\Repositories\\StudentRepository.cs",
               "RelativeDocumentMoniker": "SqliTp\\Data\\Repositories\\StudentRepository.cs",
               "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Data\\Repositories\\StudentRepository.cs",
               "RelativeToolTip": "SqliTp\\Data\\Repositories\\StudentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T15:06:55.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Data\\Repositories\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "SqliTp\\Data\\Repositories\\BaseRepository.cs",
-              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Data\\Repositories\\BaseRepository.cs",
-              "RelativeToolTip": "SqliTp\\Data\\Repositories\\BaseRepository.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAUwAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T15:03:10.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Data\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "SqliTp\\Data\\Interfaces\\IRepository.cs",
               "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Data\\Interfaces\\IRepository.cs",
               "RelativeToolTip": "SqliTp\\Data\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T15:01:17.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "IReadOnlyRepository.cs",
               "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Data\\Interfaces\\IReadOnlyRepository.cs",
               "RelativeDocumentMoniker": "SqliTp\\Data\\Interfaces\\IReadOnlyRepository.cs",
               "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Data\\Interfaces\\IReadOnlyRepository.cs",
               "RelativeToolTip": "SqliTp\\Data\\Interfaces\\IReadOnlyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T15:00:13.719Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20250402114610_FixCascadeDelete.cs",
-              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Migrations\\20250402114610_FixCascadeDelete.cs",
-              "RelativeDocumentMoniker": "SqliTp\\Migrations\\20250402114610_FixCascadeDelete.cs",
-              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Migrations\\20250402114610_FixCascadeDelete.cs",
-              "RelativeToolTip": "SqliTp\\Migrations\\20250402114610_FixCascadeDelete.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T11:46:11.006Z"
             },
             {
               "$type": "Document",
@@ -168,7 +139,7 @@
               "RelativeDocumentMoniker": "SqliTp\\MyContext.cs",
               "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\MyContext.cs",
               "RelativeToolTip": "SqliTp\\MyContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T10:44:21.206Z",
               "EditorCaption": ""
@@ -187,27 +158,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Student.cs",
               "RelativeDocumentMoniker": "SqliTp\\Models\\Student.cs",
               "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Student.cs",
               "RelativeToolTip": "SqliTp\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T10:40:07.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Person.cs",
-              "RelativeDocumentMoniker": "SqliTp\\Models\\Person.cs",
-              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Person.cs",
-              "RelativeToolTip": "SqliTp\\Models\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T10:39:21.566Z"
+              "WhenOpened": "2025-04-02T10:40:07.326Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -217,9 +177,35 @@
               "RelativeDocumentMoniker": "SqliTp\\Program.cs",
               "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Program.cs",
               "RelativeToolTip": "SqliTp\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBMAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCQAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T10:28:29.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Data\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "SqliTp\\Data\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Data\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "SqliTp\\Data\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:53:06.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "SqliTp\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Person.cs",
+              "RelativeToolTip": "SqliTp\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:39:21.566Z",
               "EditorCaption": ""
             },
             {
@@ -248,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Teacher.cs",
               "RelativeDocumentMoniker": "SqliTp\\Models\\Teacher.cs",
@@ -272,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Subject.cs",
               "DocumentMoniker": "C:\\Users\\melouadi\\source\\repos\\SqliTp\\SqliTp\\Models\\Subject.cs",
               "RelativeDocumentMoniker": "SqliTp\\Models\\Subject.cs",
