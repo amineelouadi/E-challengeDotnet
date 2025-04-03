@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SqliTp.Data.Interfaces;
+using SqliTp.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +22,18 @@ namespace SqliTp.Data.Repositories
         }
         public virtual T GetById(int id) => _dbSet.Find(id);
 
-        public virtual IEnumerable<T> GetAll() => _dbSet.ToList();
+        public virtual IEnumerable<T> GetAll()
+        {
+            var query = _dbSet.AsQueryable();
+
+            // Vérifie si T est Student ou une sous-classe de Student
+            if (typeof(Student).IsAssignableFrom(typeof(T)))
+            {
+                query = query.OfType<Student>().Include(s => s.Personal).Cast<T>();
+            }
+
+            return query.ToList();
+        }
 
         public virtual IEnumerable<T> Find(Expression<Func<T, bool>> predicate)
             => _dbSet.Where(predicate).ToList();

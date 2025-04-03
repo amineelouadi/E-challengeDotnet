@@ -12,8 +12,8 @@ using SqliTp;
 namespace SqliTp.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20250402182025_first")]
-    partial class first
+    [Migration("20250403090521_firstMigration")]
+    partial class firstMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

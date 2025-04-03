@@ -33,7 +33,7 @@ class Program
             var newStudent = new Student
             {
                 StudentNumber = "ET2024001",
-                Personal = new Person { FirstName = "Mohamed Amine", LastName = "El Ouadi" }
+                Personal = new Person { FirstName = "Anass", LastName = "Saidaoui" }
             };
 
             studentRepo.Add(newStudent);
